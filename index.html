@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feed App</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">動態牆</header>
+
+<!-- 主動態牆 -->
+<main id="feed"></main>
+
+<!-- 主題切換 -->
+<div class="theme-selector">
+  <button onclick="setTheme('dark')">夜晚</button>
+  <button onclick="setTheme('red')">暗紅</button>
+  <button onclick="setTheme('yellow')">暗黃</button>
+  <button onclick="setTheme('blue')">暗深藍</button>
+  <button onclick="setTheme('pink')">粉紅</button>
+  <button onclick="setTheme('cream')">米黃</button>
+  <button onclick="setTheme('lightblue')">淺藍</button>
+  <button onclick="setTheme('gray')">深灰</button>
+  <button onclick="setTheme('lightgray')">淺灰</button>
+</div>
+
+<nav class="bottom-nav">
+  <span>🏠</span>
+  <span>❤️</span>
+  <span>🔍</span>
+</nav>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
